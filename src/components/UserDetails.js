@@ -86,7 +86,6 @@ let UserDetails = () => {
         }
     ];
 
-    // console.log(useParams())
     let { id } = useParams()
     let [data, setData] = useState(null)
 
@@ -97,7 +96,7 @@ let UserDetails = () => {
 
     return (
         <div>
-            <div>{!data && <div> Loading... </div>}</div>
+            <div>{!data && <div>Loading...</div>}</div>
             {data && <div>
                 <h1>User Details</h1>
                 <p><b>Name</b>: {data.name}</p>
