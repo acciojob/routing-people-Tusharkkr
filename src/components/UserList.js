@@ -5,7 +5,7 @@ let UserList = () => {
 
     return (
         <div>
-            <h1>UserList</h1>
+            <h1>User List</h1>
             <ul>
                 <li><Link to='/user/1'>Leanne Graham</Link></li>
                 <li><Link to='/user/2'>Ervin Howell</Link></li>

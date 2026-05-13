@@ -97,14 +97,14 @@ let UserDetails = () => {
 
     return (
         <div>
-            {!data && <p>Loading...</p>}
+            {!data && <div>Loading...</div>}
             {data && <div>
-                <h1>UserDetails</h1>
-                <p><b>Name</b> : {data.name}</p>
-                <p><b>Username</b> : {data.username}</p>
-                <p><b>Email</b> : {data.email}</p>
-                <p><b>Phone</b> : {data.phone}</p>
-                <p><b>Website</b> : {data.website}</p>
+                <h1>User Details</h1>
+                <p><b>Name</b>: {data.name}</p>
+                <p><b>Username</b>: {data.username}</p>
+                <p><b>Email</b>: {data.email}</p>
+                <p><b>Phone</b>: {data.phone}</p>
+                <p><b>Website</b>: {data.website}</p>
             </div>}
         </div>
     )
