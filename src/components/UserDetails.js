@@ -91,7 +91,9 @@ let UserDetails = () => {
 
     useEffect(() => {
         let value = users.find(value => value.id == id)
-            setData(value)
+            setTimeout(()=>{
+                setData(value)
+            },1000)
     }, [])
 
     return (
