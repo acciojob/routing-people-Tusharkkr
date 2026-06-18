@@ -93,6 +93,7 @@ let UserDetails = () => {
         let value = users.find(value => value.id == id)
             setTimeout(()=>{
                 setData(value)
+                
             },1000)
     }, [])
 
